@@ -1,0 +1,1 @@
+ALTER TABLE profiles ADD COLUMN IF NOT EXISTS selected_badge_id INTEGER REFERENCES seaton_badge(id) ON DELETE SET NULL;
